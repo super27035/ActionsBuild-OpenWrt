@@ -1,4 +1,4 @@
-name: Build
+name: Build R2S
 
 on:
   push:
