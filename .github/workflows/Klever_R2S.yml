@@ -1,7 +1,10 @@
 name: Build Clever R2S
 
 on:
-  create
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
