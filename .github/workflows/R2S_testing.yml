@@ -1,7 +1,7 @@
 name: Build R2S Testing
 
 on:
-  create
+  workflow_dispatch:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
