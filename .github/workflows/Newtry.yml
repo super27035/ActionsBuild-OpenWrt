@@ -1,10 +1,7 @@
 name: Build R2S
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+  create
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
