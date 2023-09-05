@@ -1,6 +1,6 @@
 name: Build R2S
 
-on:
+# on:
   push:
     branches:
       - main
